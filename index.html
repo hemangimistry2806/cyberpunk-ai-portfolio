@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemangi Mistry | Cyberpunk AI Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <header>
+        <a href="#" class="logo">Hemu<span>.AI</span></a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section reveal">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="neon-text">Hemangi (Hemu)</span></h1>
+            <h2 class="typing-text"></h2>
+            <p>Passionate about AI, Machine Learning, intelligent systems, and building interactive digital experiences.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="avatar.png" alt="Hemangi Cyberpunk Avatar">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section reveal">
+        <h2 class="section-title">About <span class="neon-text">Me</span></h2>
+        <div class="about-content">
+            <div class="glass-card">
+                <p>I am a <strong>4th semester AIML student</strong> with a deep passion for Artificial Intelligence,
+                    Machine Learning, creative technology, and frontend development.</p>
+                <p>My interests lie in exploring innovative tech ideas, building AI-driven software, automation, and
+                    problem-solving. I am a curious learner equipped with strong observation and analytical thinking
+                    skills.</p>
+                <p>Recently, I participated in the <strong>AI BUILD Hackathon</strong>, which fueled my drive to push
+                    the boundaries of what's possible with intelligent systems and interactive UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section reveal">
+        <h2 class="section-title">Technical <span class="neon-text">Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class='bx bxl-python'></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card"><i class='bx bx-brain'></i>
+                <h3>Machine Learning</h3>
+            </div>
+            <div class="skill-card"><i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card"><i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card"><i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card"><i class='bx bxs-data'></i>
+                <h3>SQL / DBMS</h3>
+            </div>
+            <div class="skill-card"><i class='bx bx-code-block'></i>
+                <h3>DSA</h3>
+            </div>
+            <div class="skill-card"><i class='bx bxl-git'></i>
+                <h3>Git & GitHub</h3>
+            </div>
+            <div class="skill-card"><i class='bx bx-camera'></i>
+                <h3>OpenCV Basics</h3>
+            </div>
+            <div class="skill-card"><i class='bx bx-message-rounded-dots'></i>
+                <h3>Prompt Engineering</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section reveal">
+        <h2 class="section-title">Featured <span class="neon-text">Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <h3>Task Prioritization System Using Emotion Analysis</h3>
+                <p>AI system that prioritizes tasks using different matrices and user emotion scanning. It recommends
+                    tasks based on three mood states: Focus, Neutral, and Anxiety.</p>
+                <a href="#" class="btn-sm">View Details</a>
+            </div>
+            <div class="project-card glass-card">
+                <h3>Gesture Mouse Control</h3>
+                <p>Computer vision project that controls mouse movements using hand gestures with Python and OpenCV.</p>
+                <a href="#" class="btn-sm">View Details</a>
+            </div>
+            <div class="project-card glass-card">
+                <h3>Personal Portfolio</h3>
+                <p>Responsive futuristic portfolio website with interactive UI, cyberpunk aesthetics, and smooth
+                    animations.</p>
+                <a href="#home" class="btn-sm">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements section reveal">
+        <h2 class="section-title">Achievements & <span class="neon-text">Participation</span></h2>
+        <div class="timeline">
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <h3>AI BUILD Hackathon</h3>
+                <p>Participated in AI BUILD Hackathon focused on AI innovation, prompt engineering, and building
+                    creative solutions.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <h3>Vibe Coding Project</h3>
+                <p>Developed dynamic, visually impressive codebases combining AI-driven software development with
+                    premium modern UI aesthetics.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <h3>AIML Student Projects</h3>
+                <p>Frontend & AI Project Development, exploring deep learning models and data science basics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+        <h2 class="section-title">Get in <span class="neon-text">Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <h3>Connect With Me</h3>
+                <p>Interested in collaborating on AI or frontend projects? Let's talk!</p>
+                <div class="social-links">
+                    <a href="https://github.com/hemangimistry2806?utm_source=chatgpt.com" target="_blank"
+                        class="social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/hemangi-mistry-a1a5b6324?utm_source=chatgpt.com"
+                        target="_blank" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:hemangi07628@gmail.com" class="social-icon"><i class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+            <form id="contact-form" class="glass-card">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="hashtags">
+            <span>#pantechelearning</span>
+            <span>#snvit</span>
+            <span>#guhan</span>
+            <span>#vibecodingproject</span>
+            <span>#aiDrivenSoftwareDevelopment</span>
+        </div>
+        <p>&copy; 2026 Hemangi Mistry. All rights reserved. | Built with ❤️ and AI.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
